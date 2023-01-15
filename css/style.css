@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+/* Reset info  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+section {
+  margin: 130px auto;
+}
+.container {
+  max-width: 1240px;
+  width: 90%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 767px) {
+  section {
+    margin: 65px auto;
+  }
+}
+
+:root {
+  --Primary-color: #ff900e;
+  --Second-color: #fff4e7;
+  --font-color: #424242;
+  --font-color-2: #ffffff;
+  --Work-Sans: "Work Sans", sans-serif;
+}
+/* img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+} */
+
+button {
+  border: none;
+  background-color: var(--Primary-color);
+  padding: 20px 24px;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--font-color-2);
+  border-radius: 10px;
+}
+
+/* Navigation bar */
+header {
+  width: 100%;
+  background-color: var(--Second-color);
+}
+
+.nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.nav-row .nav-logo {
+  font-weight: 700;
+  font-size: 38px;
+}
+.nav-menu ul li {
+  list-style: none;
+  display: inline;
+  padding-left: 42px;
+}
+.nav-menu ul li a {
+  text-decoration: none;
+  color: var(--font-color);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* Header Banner Start  */
+
+#header-banner {
+  margin-top: 100px;
+  text-align: center;
+}
+.header-text h1 {
+  font-weight: 700;
+  font-size: 64px;
+}
+.header-text p {
+  width: 868px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--font-color);
+  margin: 30px auto;
+}
+.header-text button {
+  border: none;
+  background-color: var(--Primary-color);
+  padding: 20px 24px;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--font-color-2);
+  border-radius: 10px;
+}
+.banner-img {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-img img {
+  border-radius: 10px;
+  width: 1440px;
+}
+
+/* Quick list of Our Features  */
+.team-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.team-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 708px;
+  gap: 30px;
+}
+
+.team-text h2 {
+  font-weight: 500;
+  font-size: 45px;
+}
+.team-text p {
+  font-weight: 400;
+  font-size: 16px;
+  width: 400px;
+  color: var(--font-color);
+}
+.team-text button {
+  border: none;
+  background-color: var(--Primary-color);
+  padding: 20px 24px;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--font-color-2);
+  border-radius: 10px;
+}
+
+/* Features you will love & enjoy  */
+
+.features {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 54px;
+}
+
+.title-info {
+  width: 586px;
+}
+.title-info h2 {
+  font-weight: 700;
+  font-size: 45px;
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.title-info p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--font-color);
+  margin-top: 30px;
+}
+
+.features-text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.details {
+  width: 586px;
+  font-weight: 600;
+  font-size: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 30px;
+}
+.details h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.details p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.img-area {
+  position: relative;
+}
+.img-area img {
+  width: 100%;
+}
+
+.year {
+  padding: 40px 45px;
+  position: absolute;
+  bottom: -80px;
+  left: -30px;
+  background-color: #ff900e;
+  color: var(--font-color-2);
+  text-align: center;
+  border-radius: 10px;
+}
+.year h2 {
+  font-size: 60px;
+}
+.year p {
+  font-size: 24px;
+}
+
+/* Some Facts */
+
+.facts-title {
+  width: 542px;
+}
+.facts-title h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+.facts-title p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--font-color);
+}
+
+.project-info {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  border: 2px solid var(--Primary-color);
+  width: 250px;
+  text-align: center;
+  padding: 45px 35px;
+  border-radius: 10px;
+}
+.card h3 {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 45px;
+}
+.card p {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--font-color);
+}
+
+/* Our sponsors  */
+
+.sponsors-title {
+  text-align: center;
+}
+.sponsors-title h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+.sponsors-title p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--font-color);
+}
+
+.sponsors-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+/* Footer  */
+footer {
+  margin: 130px auto;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Second-color);
+  height: 100px;
+}
+.footer span {
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--font-color);
+}
