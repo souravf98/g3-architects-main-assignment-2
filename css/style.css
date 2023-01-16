@@ -285,6 +285,43 @@ header {
   margin-top: 50px;
 }
 
+/* clients say section  */
+
+.clients-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.clients-title h2 {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.clients {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.client {
+  width: 346px;
+  text-align: center;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+.client p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--font-color);
+  margin-bottom: 50px;
+}
+.client h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
 /* Footer  */
 footer {
   margin: 130px auto;
@@ -382,8 +419,15 @@ footer {
     gap: 30px;
   }
 
+  /* clients say section  */
+
+  .clients {
+    flex-direction: column;
+    gap: 30px;
+  }
+
   /* Footer  */
-  .footer{
+  .footer {
     text-align: center;
   }
 }
