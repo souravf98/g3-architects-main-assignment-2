@@ -15,7 +15,7 @@ section {
   width: 90%;
   margin: 0 auto;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 576px) {
   section {
     margin: 65px auto;
   }
@@ -107,7 +107,7 @@ header {
 
 .banner-img img {
   border-radius: 10px;
-  width: 1440px;
+  width: 100%;
 }
 
 /* Quick list of Our Features  */
@@ -300,4 +300,90 @@ footer {
   font-weight: 400;
   font-size: 20px;
   color: var(--font-color);
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  /* Header  */
+  .nav-row {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav-menu ul li {
+    display: block;
+  }
+  .header-text p {
+    width: 100%;
+  }
+  /* Quick list of our... section */
+  .team-info {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .team-img {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  .team-img img {
+    width: 100%;
+  }
+
+  .team-text {
+    text-align: center;
+  }
+
+  .team-text p {
+    width: 100%;
+    margin: 24px 0;
+  }
+
+  /* Features you... section  */
+  .features {
+    flex-direction: column-reverse;
+    gap: 100px;
+  }
+  .year {
+    padding: 16px 24px;
+    bottom: -60px;
+    left: 30px;
+  }
+
+  .title-info {
+    text-align: center;
+    width: 100%;
+  }
+  .title-info h2 {
+    width: 100%;
+  }
+  .title-info p {
+    width: 100%;
+  }
+
+  .details {
+    width: 100%;
+  }
+
+  /* Some Facts section  */
+  .facts-title {
+    width: 100%;
+  }
+  .project-info {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  /* Our Sponspors section  */
+  .sponsors-brand {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /* Footer  */
+  .footer{
+    text-align: center;
+  }
 }
